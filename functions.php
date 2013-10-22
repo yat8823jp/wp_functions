@@ -9,3 +9,4 @@ function change_posts_per_page( $query ) {
 	}
 }
 add_action( 'pre_get_posts', 'change_posts_per_page' );
+test
